@@ -53,11 +53,11 @@ const App = () => {
     },
     {
       id: 5,
-      name: "confirmPassword",
+      name: "confirm password",
       type: "password",
-      placeholder: "confirmPassword",
+      placeholder: "confirm password",
       errorMessage: "passwords don't match",
-      label: "confirmPassword",
+      label: "confirm password",
       pattern: values.password,
       required: true,
     },
@@ -65,6 +65,7 @@ const App = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    alert("Submitted");
   };
 
   const onChange = (e) => {
